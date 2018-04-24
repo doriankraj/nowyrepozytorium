@@ -11,7 +11,7 @@ import java.awt.Event;
 import java.awt.Graphics;
 import java.awt.GridLayout;
 import java.awt.Label;
-import java.awt.Panel;
+import java.awt.Panel; zmiana 10
 import java.awt.TextField;
  
 public class Gwiazda extends Applet 
