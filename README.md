@@ -11,8 +11,7 @@ import java.awt.Graphics;
 import java.awt.GridLayout;
 import java.awt.Label;
 import java.awt.Panel;
-import java.awt.TextField;
- 
+import java.awt.TextField;cawdadwa
 public class Gwiazda extends Applet 
 {
     int bok;
