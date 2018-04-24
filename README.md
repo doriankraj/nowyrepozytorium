@@ -1,6 +1,7 @@
 # nowyrepozytorium
 nowybranch
 import java.applet.Applet;
+zmiana 9
 =======
 import java.applet.Applet zmiana w drugiej linijce;
 import java.awt.BorderLayout;    to już zmieniam i znowu zmieniam
@@ -10,8 +11,12 @@ import java.awt.Event;
 import java.awt.Graphics;
 import java.awt.GridLayout;
 import java.awt.Label;
+nowybranch
 import java.awt.Panel;
-import java.awt.TextField;cawdadwa
+
+import java.awt.Panel; zmiana 10
+import java.awt.TextField;
+ master
 public class Gwiazda extends Applet 
 {
     int bok;

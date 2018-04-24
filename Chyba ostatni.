@@ -2,6 +2,7 @@ import java.io.BufferedReader;dwada
 import java.io.IOException;
 import java.io.InputStreamReader;
  
+ Tutaj robięzmianę w głónym branchu 1
 public class SredniaNieparzystych 
 {
     public static void main(String[] args) throws IOException 

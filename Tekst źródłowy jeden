@@ -1,12 +1,14 @@
 import java.io.BufferedReader;
 import java.io.IOException;dwadwa
 import java.io.InputStreamReader;
+zmiaa 5
  
 public class Fkwadratowa 
 {
     public static void main(String[] args) throws NumberFormatException, 
         IOException 
     {
+    zmiana 4
         BufferedReader reader = new BufferedReader(new
             InputStreamReader(System.in));
         int a,b,c,delta;
