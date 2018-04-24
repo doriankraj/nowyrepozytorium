@@ -1,5 +1,5 @@
 # nowyrepozytorium
-import java.applet.Applet;
+import java.applet.Applet zmiana w drugiej linijce;
 import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.Color;
