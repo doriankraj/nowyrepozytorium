@@ -1,6 +1,7 @@
 # nowyrepozytorium
 nowybranch
 import java.applet.Applet;
+zmiana 9
 =======
 import java.applet.Applet zmiana w drugiej linijce;
 import java.awt.BorderLayout;    to już zmieniam i znowu zmieniam
