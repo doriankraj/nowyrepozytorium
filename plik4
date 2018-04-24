@@ -1,4 +1,4 @@
-public void actionPerformed(ActionEvent evt) 
+public void actionPerformed(ActionEvent evt) dadadwa
     {
         if (evt.getSource() != bPlus && evt.getSource() != bSum 
             && evt.getSource() != bMinus && evt.getSource() != bMnoznik 
