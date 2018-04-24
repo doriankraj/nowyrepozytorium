@@ -16,6 +16,7 @@ zmiaa 7
         {
             x = 1
             x = 2
+            zmiana 8
             System.out.print("Liczba " + licznik + ": ");
             liczba = Integer.parseInt(reader.readLine());
             if (liczba < min)
