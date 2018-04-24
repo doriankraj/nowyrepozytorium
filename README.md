@@ -1,4 +1,7 @@
 # nowyrepozytorium
+nowybranch
+import java.applet.Applet;
+=======
 import java.applet.Applet zmiana w drugiej linijce;
 import java.awt.BorderLayout;    to już zmieniam i znowu zmieniam
 import java.awt.Button;
@@ -29,3 +32,4 @@ public class Gwiazda extends Applet
     }
     public boolean action(Event evt, Object arg) 
     {
+ master
