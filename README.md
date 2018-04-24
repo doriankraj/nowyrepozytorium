@@ -1,6 +1,6 @@
 # nowyrepozytorium
 import java.applet.Applet zmiana w drugiej linijce;
-import java.awt.BorderLayout;    to już zmieniam
+import java.awt.BorderLayout;    to już zmieniam i znowu zmieniam
 import java.awt.Button;
 import java.awt.Color;
 import java.awt.Event;
