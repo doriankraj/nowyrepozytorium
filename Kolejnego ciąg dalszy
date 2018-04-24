@@ -3,7 +3,7 @@
     public void actionPerformed(ActionEvent evt)
     {
         if(evt.getSource() == rysuj)
-        {
+        { zmiana 2
             watek=new Thread(this); 
             watek.start();
         }
