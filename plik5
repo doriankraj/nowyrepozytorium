@@ -1,0 +1,34 @@
+pamiec = 0.0;
+            wartosc=pamiec;
+            wyswietlacz.setText("" + wartosc + "."); 
+        }
+        else
+        {
+            if(operacja==1)
+            {
+                pamiec +=wartosc; 
+                wartosc = pamiec;
+                wyswietlacz.setText("" + wartosc + ".");
+            }
+            else if (operacja==2)
+            {
+                pamiec -=wartosc;
+                wartosc = pamiec; 
+                wyswietlacz.setText("" + wartosc + ".");
+            }
+            else if (operacja==3)
+            {
+                pamiec = pamiec*wartosc;
+                wartosc = pamiec;
+                wyswietlacz.setText ("" + wartosc + ".");
+            }
+            else if (operacja==4)
+            {
+                pamiec = pamiec/wartosc;
+                wartosc = pamiec;
+                wyswietlacz.setText("" + wartosc + "."); 
+            }
+            wartosc=pamiec;
+        }
+    }
+}
