@@ -11,6 +11,7 @@
         {
             watek.stop();
         }
+        zmiana 3
     }
      
     public void run() 
