@@ -1,4 +1,4 @@
-public void init() 
+public void init() dwadwa
     {
         Panel panel = new Panel();
         panel.setLayout(new GridLayout(4, 4));

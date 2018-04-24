@@ -1,5 +1,5 @@
  }
-     
+     caca
     public void actionPerformed(ActionEvent evt)
     {
         if(evt.getSource() == rysuj)

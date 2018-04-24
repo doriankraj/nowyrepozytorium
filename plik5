@@ -1,4 +1,4 @@
-pamiec = 0.0;
+pamiec = 0.0;dwadwa
             wartosc=pamiec;
             wyswietlacz.setText("" + wartosc + "."); 
         }
