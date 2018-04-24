@@ -1,0 +1,30 @@
+import java.applet.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+ 
+public class RosnacyOkrag extends Applet implements ActionListener, Runnable
+{
+    int szerokosc=1;
+    int wysokosc=1;
+    int i=0;
+    Button rysuj = new Button("Rysuj");
+    Button stop = new Button("Stop");
+    private Thread watek;
+    public void init()
+    {
+        setLayout(null);
+        rysuj.setBounds(10, 0, 100, 20);
+        stop.setBounds(10, 20, 100, 20);
+        add(rysuj);
+        add(stop);
+        rysuj.addActionListener(this);
+        stop.addActionListener(this);
+    }
+ 
+    public void paint(Graphics gDC)
+    {
+        Dimension rozmiarProgramu = this.getSize();
+        int wspX = ((int)rozmiarProgramu.getWidth())/2;
+        int wspY = ((int)rozmiarProgramu.getHeight())/2;
+        gDC.drawOval(wspX-i, wspY-i, szerokosc+(2*i), wysokosc+(2*i));
