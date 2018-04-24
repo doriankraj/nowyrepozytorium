@@ -1,0 +1,36 @@
+public void actionPerformed(ActionEvent evt) 
+    {
+        if (evt.getSource() != bPlus && evt.getSource() != bSum 
+            && evt.getSource() != bMinus && evt.getSource() != bMnoznik 
+            && evt.getSource () != bDzielnik && evt.getSource() != bC) 
+        {
+            wartosc = 10 * wartosc + 
+                Double.parseDouble(((Button) evt.getSource()).getLabel());
+            wyswietlacz.setText("" + wartosc + ".");
+        } 
+ 
+        else if (evt.getSource() == bPlus) 
+        {
+            pamiec = wartosc;
+            wartosc = 0.0;
+            operacja=1;
+        }
+        else if (evt.getSource() == bMinus)
+        {
+            pamiec = wartosc;
+            wartosc = 0.0;
+            operacja=2; 
+        }
+        else if (evt.getSource() == bMnoznik)
+        {
+            pamiec = wartosc;
+            wartosc = 0.0;
+            operacja=3;
+        }
+        else if (evt.getSource() == bDzielnik)
+        {
+            pamiec = wartosc;
+            wartosc = 0.0;
+            operacja = 4; 
+        }
+        else if (evt.getSource() == bC)
