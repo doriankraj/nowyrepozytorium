@@ -1,0 +1,30 @@
+ }
+     
+    public void actionPerformed(ActionEvent evt)
+    {
+        if(evt.getSource() == rysuj)
+        {
+            watek=new Thread(this); 
+            watek.start();
+        }
+        else if(evt.getSource() == stop)
+        {
+            watek.stop();
+        }
+    }
+     
+    public void run() 
+    {
+        while(true) 
+        {
+            try
+            { 
+                Thread.currentThread().sleep(50);
+                i++;
+            } 
+            catch (InterruptedException e ) 
+            {}
+            repaint();
+        } 
+    }
+}
