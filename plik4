@@ -1,5 +1,7 @@
 public void actionPerformed(ActionEvent evt) 
     {
+    zmiana 6
+    ciekawe co wyjdzie
         if (evt.getSource() != bPlus && evt.getSource() != bSum 
             && evt.getSource() != bMinus && evt.getSource() != bMnoznik 
             && evt.getSource () != bDzielnik && evt.getSource() != bC) 
